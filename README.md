@@ -47,7 +47,8 @@ Finally, to run the application, execute sad.py file.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Before running the application the model must first be trained on the data given, MyTrain.csv and Mytest.csv. Execute the myModel.py from the terminal.
+Finally, to run the application, execute sad.py file.
 
 ## Authors
 
