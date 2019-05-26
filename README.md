@@ -1,4 +1,4 @@
-# SAD
+# Smart Attack Detector (S.A.D.)
 FYP Fall 2018:
 
 This project lies on the intersection between Network Security and Machine Learning. Most Intrusion Detection Systems (IDS) today, work on signature based detection which results in new variants of network attacks being undetected until their signatures are updated into the system. IDS like these cannot stop a network attack whose signature is not in its database. To rectify this, instead of relying on a database for signatures, we have created a machine learning model that can classify new variants of attacks instantly. This is done by training the model on a number of classes of attacks, after which it can, detect new variants of attacks within those classes. 
@@ -32,39 +32,18 @@ Tensor computation (like NumPy) with strong GPU acceleration and deep neural net
 
 ### Installing
 
-Download the project
+Download the project and all its files. If you only want to run the application, then snort.lua can be exempted, otherwise, snort.lua must also be downloaded. 
+Locate to the directory where you have downloaded it.
+ 
+Change the path of myTrain.csv and MyTest.csv to your local path in the myModel.file
 
 ```
-Give the example
-```
+train = pd.read_csv('dir\path\myTrain.csv', nrows= 3020 , low_memory=False)
+test = pd.read_csv('dir\path\myTest.csv',nrows = 510, low_memory=False)
+``
+Before running the application the model must first be trained on the data given, MyTrain.csv and Mytest.csv. Execute the myModel file as python3 file for this.
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Finally, to run the application, execute sad.py file.
 
 ## Deployment
 
@@ -78,7 +57,7 @@ Add additional notes about how to deploy this on a live system
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/fcsiba/SAD/blob/master/LICENSE) file for details
 
 
 
