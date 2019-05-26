@@ -41,7 +41,7 @@ Change the path of myTrain.csv and MyTest.csv to your local path in the myModel.
 train = pd.read_csv('dir\path\myTrain.csv', nrows= 3020 , low_memory=False)
 test = pd.read_csv('dir\path\myTest.csv',nrows = 510, low_memory=False)
 ```
-Before running the application the model must first be trained on the data given, MyTrain.csv and Mytest.csv. Execute the myModel file as python3 file for this.
+Before running the application the model must first be trained on the data given, myTrain.csv and execute the myModel.py file as python3 file for this.
 
 Finally, to run the application, execute sad.py file.
 
