@@ -52,7 +52,7 @@ Finally, to run the application, execute sad.py file.
 
 ## Authors
 
-* **Syeda Mahnur Asif** - [MahnurA](https://github.com/PurpleBooth)
+* **Syeda Mahnur Asif** - [MahnurA](https://github.com/MahnurA)
 * **Sunila Aftab** - [sunila-aftab](https://github.com/sunila-aftab)
 * **Emaan Hasan** - [emaan-hasan](https://github.com/emaan-hasan)
 
